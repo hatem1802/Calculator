@@ -1,0 +1,58 @@
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+*{
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    background-color: rgba(29,41,58,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.output {
+    height: 15%;
+    padding: 50px 15px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+.last {
+    color: rgba(255, 255, 255, 0.579);
+}
+.result {
+    font-size:xx-large;
+    color: white;
+}
+.buttons {
+    padding: 10px;
+}
+.button {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
+button {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(53,67,87,255);
+    font-size: xx-large;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:hover {
+    background-color: rgb(75 108 156);
+}
+button.active{
+    background-color: rgb(75 108 156);
+}
